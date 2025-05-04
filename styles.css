@@ -91,12 +91,13 @@
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: top;
 }
 
 .contact-info__block--center {
   justify-content: center;
 }
+
 
 .contact-info__item {
   color: var(--secondary-text-color);
@@ -125,14 +126,21 @@
   vertical-align: text-bottom;
 }
 
+.contact-info__item-icon--phone {
+  height: 20px;
+  opacity: 0.6;
+}
+
 .contact-info__avatar {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  /* object-fit: cover; */
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
+
+
 
 /* Intro and skills styles *****************************/
 
