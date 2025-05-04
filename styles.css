@@ -180,6 +180,11 @@
     color: var(--secondary-text-color);
     text-align: justify;
   }
+  .skills__text--bold {
+    font-weight: 700;
+  }
+
+  
 
   /* Experience and additional info styles *************************/
 
