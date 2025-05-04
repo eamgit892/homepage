@@ -91,7 +91,7 @@
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: top;
+  justify-content: start;
 }
 
 .contact-info__block--center {
