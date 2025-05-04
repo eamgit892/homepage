@@ -98,6 +98,7 @@
   justify-content: center;
 }
 
+
 .contact-info__item {
   color: var(--secondary-text-color);
   text-decoration: none;
@@ -129,10 +130,12 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  /* object-fit: cover; */
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
+
+
 
 /* Intro and skills styles *****************************/
 
