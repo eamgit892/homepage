@@ -91,7 +91,7 @@
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: top;
 }
 
 .contact-info__block--center {
@@ -124,6 +124,11 @@
 .contact-info__item-icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
+}
+
+.contact-info__item-icon--phone {
+  height: 20px;
+  opacity: 0.6;
 }
 
 .contact-info__avatar {
